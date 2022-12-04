@@ -1,4 +1,4 @@
-package com.nassau.proavancada.dtos;
+package com.nassau.proavancada.dtos.student;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;

@@ -1,7 +1,7 @@
 package com.nassau.proavancada.controllers;
 
-import com.nassau.proavancada.dtos.CreateStudentDto;
-import com.nassau.proavancada.dtos.UpdateStudentDto;
+import com.nassau.proavancada.dtos.student.CreateStudentDto;
+import com.nassau.proavancada.dtos.student.UpdateStudentDto;
 import com.nassau.proavancada.models.StudentModel;
 import com.nassau.proavancada.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/students")

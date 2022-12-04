@@ -1,11 +1,10 @@
 package com.nassau.proavancada.services;
 
-import com.nassau.proavancada.dtos.CreateStudentDto;
-import com.nassau.proavancada.dtos.UpdateStudentDto;
+import com.nassau.proavancada.dtos.student.CreateStudentDto;
+import com.nassau.proavancada.dtos.student.UpdateStudentDto;
 import com.nassau.proavancada.models.StudentModel;
 import com.nassau.proavancada.repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
